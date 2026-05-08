@@ -9,7 +9,7 @@ pipeline{
     stages{
         stage("Build Code"){
             steps{
-                sh "echo 'Building the code via git webhook2.0...'"
+                sh "echo 'Building the code via Poll SCM 2.0...'"
             }
         }
     }
